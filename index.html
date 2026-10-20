@@ -22,6 +22,7 @@ body{background:radial-gradient(ellipse at center,#160c2e 0%,#07040f 75%)}
 canvas{display:block;image-rendering:pixelated;image-rendering:crisp-edges;filter:saturate(1.15) contrast(1.05) brightness(1.05)}
 #scan{position:absolute;inset:0;pointer-events:none;background:repeating-linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,0) calc(var(--px,3px)*.5),rgba(0,0,0,.16) calc(var(--px,3px)*.5),rgba(0,0,0,.16) var(--px,3px))}
 #vig{position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse at center,rgba(0,0,0,0) 65%,rgba(0,0,0,.45) 100%)}
+body.real canvas{image-rendering:auto;filter:none}body.real #scan{display:none}
 @media (prefers-reduced-motion:reduce){#scan{display:none}}
 noscript{color:#fff;font:16px sans-serif;position:fixed;top:40%;width:100%;text-align:center}
 </style>
@@ -29,6 +30,6 @@ noscript{color:#fff;font:16px sans-serif;position:fixed;top:40%;width:100%;text-
 <body>
 <div id="safe"><div id="wrap"><canvas id="c" aria-label="Peek-a-Snip game"></canvas><div id="scan"></div><div id="vig"></div></div></div>
 <noscript>Please enable JavaScript to play.</noscript>
-<script src="app.js?v=mvgls9yy"></script>
+<script src="app.js?v=mvgprrx9"></script>
 </body>
 </html>
