@@ -1,0 +1,17 @@
+{
+  "name": "PEEK-A-SNIP!",
+  "short_name": "Peek-a-Snip",
+  "description": "Snip away the cover, reveal the funny picture, trap the spider!",
+  "start_url": "./",
+  "scope": "./",
+  "display": "fullscreen",
+  "orientation": "portrait",
+  "background_color": "#07040f",
+  "theme_color": "#07040f",
+  "categories": ["games"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

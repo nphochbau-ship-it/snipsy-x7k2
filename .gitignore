@@ -4,3 +4,7 @@ vid/
 vid2/
 *.py
 src/
+lb-app-key.txt
+app/
+shots-full/
+shots-v3/
